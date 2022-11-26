@@ -1,0 +1,128 @@
+@media screen and (max-width: 1350px) {
+    body {
+        padding: 4% 2%;
+    }
+
+    .heading-1 {
+        width: 58%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    body {
+        padding: 2% 2%;
+    }
+
+    .heading-container {
+        flex-direction: column;
+    }
+
+    .heading-1 {
+        width: 96vh;
+        height: fit-content;
+    }
+
+    .heading-1 .dump {
+        display: none;
+    }
+
+    .heading-1 .dump-2 {
+        display: inline;
+        width: 96vw;
+    }
+
+    .texts {
+        width: 96vw;
+    }
+
+    .text {
+        flex-direction: column;
+    }
+
+    .text-h {
+        width: min(93%, 457px);
+    }
+
+    .text-2 {
+        width: 99%;
+        font-size: 1.1rem;
+        letter-spacing: 1.5px;
+        word-spacing: 0.4ch;
+        line-height: 32px;
+    }
+
+    .t-2 {
+        margin-top: 5ch;
+    }
+
+    .heading-2 {
+        margin-top: 15vw;
+        height: fit-content;
+        aspect-ratio: 5/4;
+        padding: 2.9ch 2.2ch 0.2ch 2.2ch;
+    }
+
+    .topic h5 {
+        letter-spacing: 3px;
+        word-spacing: 0.4ch;
+    }
+
+    .navbar .open {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .navbar .list {
+        position: absolute;
+        color: var(--card-color);
+        flex-direction: column;
+        display: inline-block;
+        background: white;
+        height: 100%;
+        right: -100%;
+        top: 0;
+        z-index: 999;
+        width: min(440px, 65%);
+        padding: 25% 20% 20% 7%;
+        line-height: 6ch;
+        font-weight: 100;
+        font-size: 2.5ch;
+    }
+
+    .navbar .list li a {
+        color: black;
+    }
+
+    .navbar .list li a:hover {
+        color: var(--normal-hover-color);
+    }
+
+    .cross {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 4%;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card:not(:nth-child(1)) {
+        margin-top: 3.5ch;
+    }
+
+    .info a h3 {
+        letter-spacing: 2px;
+        word-spacing: 1px;
+    }
+
+    .info p {
+        letter-spacing: 1.8px;
+        word-spacing: 1.4px;
+    }
+}
