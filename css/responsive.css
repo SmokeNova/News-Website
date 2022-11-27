@@ -1,6 +1,8 @@
 @media screen and (max-width: 1350px) {
     body {
         padding: 4% 2%;
+        overflow-x: hidden;
+        overflow-y: visible;
     }
 
     .heading-1 {
