@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         menu.style.right = "0";
         overlay.style.display = "block";
         document.body.style.height = "100%";
-        document.body.style.overflow = "hidden";
+        document.body.style.overflowY = "hidden";
     })
     close.addEventListener("click", () => {
         menu = document.querySelector(".list");
@@ -20,6 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
         menu.style.right = "-100%";
         overlay.style.display = "none";
         document.body.style.height = "auto";
-        document.body.style.overflow = "auto";
+        document.body.style.overflowY = "auto";
     })
 })
